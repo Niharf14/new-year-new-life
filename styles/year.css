@@ -6,7 +6,7 @@
 .header{
     background-image: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
-    width: 1600px;
+    width: 1519.5px;
     height: 808px;
     left: 0px;
     top: 0px;
@@ -16,7 +16,7 @@
 /* banner section */
 
 .div-header{
-    padding-top: 350px;
+    padding-top: 300px;
     padding-right: 30px;
     padding-left: 1100px;
 }
@@ -33,7 +33,7 @@
     font-size: 16px;
     height: 20px;
     color: #FFFFFF;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 .btn-primary{
@@ -127,4 +127,64 @@
     line-height: 10px;
     text-align: center;
     color: #737272;
+}
+
+/* footer section style */
+.footer-section{
+    background: #151414;
+    padding: 130px 200px;
+    display: flex;
+    gap: 100px;
+}
+.footer-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.footer-button{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 14px 18px;
+    border: 0px;
+    background: #005FAC;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+.anchor{
+    text-decoration: none;
+}
+.footer-section input, button{
+    margin-bottom: 20px;
+    border: 0px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #F3F3F3;
+}
+.footer-title{
+    font-weight: 750;
+    font-size: 35px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-right: 300px;
+    margin-bottom: 30px;
+
+}
+.footer-contact{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
 }
