@@ -188,3 +188,27 @@ input{
     color: #FFFFFF;
     margin-bottom: 25px;
 }
+/* gradient section style */
+.gradient{
+    width: 1140px;
+    height: 301px;
+    left: 230px;
+    top: 2221.96px;
+    background-image: url("../images/watch.png"), url("../images/gradient1.png");
+    border-radius: 8px;
+    margin: 100px 250px;
+    background-blend-mode: overlay;
+}
+.gradient h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-left: 64px;
+    padding-right: 600px;
+}
+.gradient button{
+    margin-left: 64px;
+    margin-top: 20px;
+}
