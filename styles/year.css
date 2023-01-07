@@ -35,7 +35,7 @@
     color: #FFFFFF;
     margin-bottom: 70px;
 }
-
+/* primary button style */
 .btn-primary{
     font-weight: 600;
     font-size: 20px;
@@ -46,13 +46,41 @@
     background: #f3dcdce7;
     color: #005FAC;
 }
+/* celebration moments styling */
+.celebration{
+    display: flex;
+    gap: 30px;
+    width: 1140px;
+    height: 340px;
+    margin: 90px 150px;
+}
+.celebration h1{
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 45px;
+    color: #151414;
+    margin-bottom: 10px;
+}
+.celebration p{
+    font-weight: 500;
+    font-size: 18px;
+    height: 18px;
+    color: #005FAC;
+}
+.celebration-image{
+    display: flex;
+    gap: 24px;
+}
+.celebration img{
+    border: 0px;
+    border-radius: 5px;
+}
 /* styling main section */
+
 .main-section{
     display: flex;
     gap: 90px;
-}
-.main-section{
-    margin-top: 130px;
+    margin-top: 120px;
     margin-left: 250px;
 }
 .image-style{
@@ -77,6 +105,17 @@
     margin-top: 80px;
     margin-right: 300px;
 }
+.section-title2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 15px;
+    text-align: center;
+    color: #151414;
+    margin-top: 120px;
+}
+
+/* styling list section */
+
 .list-style{
     margin-top: 10px;
 }
@@ -87,22 +126,14 @@
     top: 1416px;
     margin-top: 5px;
     color: #444343;
-
 }
-.section-title2{
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 15px;
-    text-align: center;
-    color: #151414;
-    margin-top: 120px;
 
-}
 /* section for style plans */
+
 .section-plan{
     display: flex;
     gap: 20px;
-    margin: 50px 400px;
+    margin: 50px 350px;
 }
 .image-primary{
     align-items: center;
@@ -159,6 +190,9 @@
     margin-bottom: 20px;
     border: 0px;
 }
+.footer-section input{
+    color: #151414;
+}
 input{
     width: 200px;
     height: 30px;
@@ -196,7 +230,7 @@ input{
     top: 2221.96px;
     background-image: url("../images/watch.png"), url("../images/gradient1.png");
     border-radius: 8px;
-    margin: 100px 250px;
+    margin: 100px 200px;
     background-blend-mode: overlay;
 }
 .gradient h2{
